@@ -1,4 +1,4 @@
-# curso-bootstrap-4
+# website-wdala
 criando uma landing page responsiva
 
 # Instalando o bootstrap e implementando a navbar
