@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bootstrap - 5
 
 - Framework ou biblioteca de desenvolvimento
@@ -71,6 +72,9 @@
 
 
 # curso-bootstrap-4
+=======
+# website-wdala
+>>>>>>> 4333e1bda490025e20302ce4f9ba0c06b6223d6a
 criando uma landing page responsiva
 
 # Instalando o bootstrap e implementando a navbar
