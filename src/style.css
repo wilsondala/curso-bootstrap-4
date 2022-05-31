@@ -21,20 +21,20 @@
 }
 
 .fonte-titulo {
-    font-family: 'Pacifico', cursive;
+    color: chartreuse;
 }
 
 .cor-especial {
-    color: darkred!important;
+    color: rgb(23, 27, 35)!important;
 }
 
 .botao-cor-especial {
-    background-color: darkred;
+    background-color: rgb(108, 177, 47);
     color: white;
 }
 
 .borda-cor-especial {
-    border-color: darkred;
+    border-color: rgb(115, 225, 119);
 }
 
 .card-posicao-imagem {
@@ -49,8 +49,12 @@
 }
 
 .menu-navegacao {
-    background: white;
+    background: rgb(255, 255, 255);
 }
 .cor-link {
     color: black!important;
+}
+
+footer{
+    width: 100%;
 }

@@ -1,3 +1,75 @@
+# Bootstrap - 5
+
+- Framework ou biblioteca de desenvolvimento
+- Modular 
+- componetes 
+- CSS + JS
+- Grid System
+- Resposiva
+- Mobile-first
+- Amplamente utilizada
+- Cross browser
+
+
+## Biblioteca vs Framework 
+
+- Biblioteca: oferece objetos / classes prontas para o uso 
+- Framework: oferece  um conjunto de bibliotecas
+- Biblioteca; recurso para trabalhar 
+- framework: metodologia de trabalho
+- Biblioteca: te leva ao destino 
+- Framework te ensina a chegar
+
+
+## Desenvolvimento ágil
+
+- Metodologias: Scrum, kanban, XP
+- Entrega de valor para o negocio
+- Ciclos evolutivos
+- Separar grandes projetos em pequenas entregas 
+- MVP - Minimo produto Viável
+- estar envolvido x comprometido
+
+## Vantagens
+
+- Uso simples
+- Menos código
+- Abstração de estilos
+- Documentação completa: https:getbootstrap.com/
+
+## Desvantagens
+- Uso excessivo 
+- override de estilos (sobreposição)
+- Abstração de estilos 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # curso-bootstrap-4
 criando uma landing page responsiva
 
