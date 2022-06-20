@@ -8,7 +8,7 @@ body {
 .carousel-item {
     object-fit: cover;
     object-position: 0 80%;
-    height: 500px;
+    height: px;
 }
 
 .fonte-titulo {
