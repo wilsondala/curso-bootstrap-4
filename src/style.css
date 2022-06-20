@@ -1,5 +1,6 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    width: 100%;
 }
 
 .card-largura {
@@ -78,4 +79,23 @@ section {
 
 .time {
     text-align: center;
+}
+
+.depoimento {
+    width: 50%;
+    margin: 200px;
+    text-align: center;
+    
+}
+
+.texto-chamada{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem-5 {
+  margin: 200px;
+  align-items: center;
+    
 }
