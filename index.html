@@ -1,195 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mwangi</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Azimute</title>
-  <link rel="shortcut icon" href="/src/img/favico.jpeg" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Hubballi&family=Lobster&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Oxygen:wght@300&family=Pacifico&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/src/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="/src/style.css">
-  <head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
 
-  <body>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="src/Imagem/logomwangi1-.png"></h1>
 
-    <!--CABEÇALHO-->
-  <header>
-    <section>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top pt-lg-2 p-0">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="/src/img/logo-azimute.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown">MENU</a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="https://azimute.med.br/solucoes-em-saude/" target="_blank">SOLUÇÕES EM SAÚDE</a></li>
-                <li><a class="dropdown-item" href="https://azimute.med.br/sobre-nos/" target="_blank">SOBRE NÓS</a></li>
-                <li><a class="dropdown-item" href="https://github.com/wilsondala" target="_blank">MEU GITHUB</a></li>
-               
-              </ul>
-            </li>
-          </ul>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
         </div>
-      </div>
-    </nav>
-  </section>
-  </header>
+    </header>
+    <img class="banner" src="src/Imagem/banner1.jpg">
+    <hr/>
+    <hr/>
+    <img class="banner" src="src/Imagem/R 2.png">
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal">Mwangi</h2>
 
-  <!--PARTE PRINCIPAL -->
-  <section>
+            <img class="utensilios" src="src/Imagem/banner2.jpg" alt="utensilios de um salão">
 
-    <!--SESSÃO CARROSSEL - 1 -->
-    <section class="carrossel">
-      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <!--
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="/src/img/banner1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-            
+            <p>Localizada no coração da cidade o <strong>Mwangi-Prestação de Serviços e Comercio</strong>
+                Seja seu próprio chefe. O segredo da felicidade é a liberdade, mas o segredo da liberdade
+                é a coragem e, sem dúvida, requer uma boa parte dela para dar o passo
+                para o autoemprego. A beleza do empreendedorismo é que você toma suas
+                próprias decisões todos os dias e determina sua felicidade por si mesmo.</p>
+
+            <p id="missao"><em> Nossa missão é: <strong>"Proporcionar
+                        auto-estima e qualidade de vida aos
+                        clientes"</strong>.</em></p>
+            <!-- Strong aumenta o tamanho da letra, em é para negrito -->
+
+            <p>Oferecemos profissionais experientes e antenados às mudanças no
+                mundo da moda. O atendimento possui padrão
+                de excelência e agilidade, garantindo qualidade e satisfação dos
+                nossos clientes.</p>
+        </section>
+
+        <section class="mapa">
+            <h3 class="titulo-principal">Nosso Estabelecimento</h3>
+            <p>Nosso estabelecimento está localizado no coração da cidade.</p>
+
+            <div class="mapa-conteudo">
+                <iframe src="https://www.google.com/maps/d/embed?mid=15i_m4ehKxvHJ3S-fmp6K9w3wIMsc3-c&ehbc=2E312F" width="640" height="480"></iframe>
             </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="/src/img/banner2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-             
-            </div>
-         <!--</div>
-          <div class="carousel-item">
-            <img src="/src/img/foto-6.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-             --> 
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <section>
-     
-    </section>
-    <!--sessão titulo-->
-  <section id="titulo"> 
-      <h1 class="text-center fonte-titulo cor-especial pt-5">Uma empresa que respeita a diversidade e a igualdade de gênero, causando impacto financeiro e social em sua comunidade</h1>
-      <p class="text-center  text-secondary pt-3">Fundada em 2010, a empresa atende todo o Brasil, conta com 282 colaboradores e 847 visitadores externos que vão ao encontro dos pacientes sempre que necessário. Sanofi, Novartis e Pfizer são alguns de seus clientes.</p>
-  </section>
-  <div class="time">
-    <h2>TIME DE EXCELÊNCIA</h2>
-  </div>
-  <!--sessão receitas-->
-  <section class="container bg-light" id="receitas">
-  <div class="row row-cols-1 row-cols-md-2 g-4">
-    <div class="col">
-      <div class="card">
-           <img src="/src/img/LUCIANA CEO.png" class="card-img-top w-100 fw-bold" alt="IMAGEM CEO">
-           <div class="card-body">
-            <h5 class="card-title">Luciana Lauretti</h5>
-            <p class="card-text">CEO - Lorem ipsum dolor sit amet.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="/src/img/SYLVIA.png" class="card-img-top" alt="IMAGEMCXO">
-        <div class="card-body">
-          <h5 class="card-title">Sylvia Campos</h5>
-          <p class="card-text">CXO - Lorem ipsum dolor sit amet.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="/src/img/SERGIO.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Sérgio Lima</h5>
-          <p class="card-text">CFO - Lorem ipsum dolor sit amet.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="/src/img/Image GLAUCIA.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Glaucia Balieiro</h5>
-          <p class="card-text">Gerente de T.I, B.I e Analytics</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="text-center">
-  <img src="/src/img/LUCIANA.png" class="rounded" alt="foto">
-</div>
-  </main>
+        </section>
 
-   <footer class="bg-secondary p-4">
-    
-    <p class="text-light m-0 text-center">Copyright 2022 - Desenvolvido por Wilson Dos Santos kahango Dala (11)967864913</p>
-   </footer>
+        <section class="beneficios">
+            <h3 class="titulo-principal">Benefícios</h3>
 
-      <!-- Button trigger modal 
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-      Launch demo modal
-    </button>-->
-
-    <!-- Modal 
-    <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Entra em contato</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            Formulario modal
-            <form>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nome completo</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="escreva o seu nome completo aqui">
-              </div>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Endereço de e-mail</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@exemplo.com">
+            <div class="conteudo-beneficios">
+                <ul class="lista-beneficios">
+                    <li class="itens">produtos de Qualidade</li>
+                    <li class="itens">Hidratação profunda da pele</li>
+                    <li class="itens">Fragrância envolvente</li>
+                    <li class="itens">Textura sedosa e acetinada</li>
+                    <li class="itens">Rico em minerais, como potássio, sódio, fósforo, ferro e vitaminas A e vitamina C.</li>
+                    <li class="itens">Forma uma película protetora que impede a perda de água e ajuda na tonificação.</li>
+                   
+                </ul><img src="src/Imagem/maxresdefault.jpg" class="imagem-beneficios">
             </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Deixe seu comentario</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="deixe o seu comentario aqui" rows="3"></textarea>
-            </div>
-          </div>
-        </form>
-       
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            <button type="button" class="btn botao-cor-especial">Enviar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-      Modal -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="/src/js/bootstrap.min.js"></script>
 
-    </body>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TMhJiWXvdPk?si=HT83AwmWkuuofaG5"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/Imagem/logomwangi1-.png">
+        <p class="copyright">&copy; Copyright wilsondala - 2024</p>
+    </footer>
+</body>
+
 </html>
