@@ -4,7 +4,8 @@
 
 .principal {
     background: #1219ea;
-    padding: 30px;
+    padding: initial;
+    width: 100%;
 }
 
 .titulo-principal {
@@ -22,6 +23,7 @@ p {
 }
 #missao {
     font-size: 20px
+    
 }
 
 em strong {
@@ -46,6 +48,7 @@ ul {
 }
 
 .imagembeneficios {
-    width: 50%;
+    width: 0%;
+    background-color: #c51c1c;
 }
 
