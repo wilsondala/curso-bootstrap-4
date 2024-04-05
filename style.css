@@ -24,6 +24,7 @@ nav {
 
 nav li {
     display: inline;
+    text-align: justify;
     margin:  0 0 0 15px;
 
 }
@@ -41,9 +42,10 @@ nav a:hover{
 
 }
 .produtos{
-    width: 940px;
+    width: auto;
     margin: 0 auto;
     padding: 50px 0;
+   
 }
 .produtos li {
     display: inline-block;
@@ -149,7 +151,7 @@ thead {
 }
 td, th {
     border: 1px solid #000000;
-    padding: 8px 15px;
+    padding: 10px 15px;
 }
 
 /* css da pagina inicial */

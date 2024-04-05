@@ -1,11 +1,11 @@
 #banner {
-    width: 100%;
+    width: fit-content;
 }
 
 .principal {
     background: #1219ea;
     padding: initial;
-    width: 100%;
+   
 }
 
 .titulo-principal {
